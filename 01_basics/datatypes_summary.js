@@ -31,3 +31,32 @@ const myFunction = function(){
     
 }
 console.log(typeof heros);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ++++++++++++++++++++++++++++++++++++++
+
+//  Stack (Primitive), heap (Non-Primitive)
+
+let myName = "gopi kumar"
+
+let anothername = myName
+anothername = "my nwe name is hindu"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    emil: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne 
+
+userTwo.email ="gopi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
